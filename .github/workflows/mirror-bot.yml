@@ -1,16 +1,16 @@
-name: Deploy
+name: Demploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths-ignore: 'README.md'
   workflow_dispatch:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "hiteshkamble920@gmail.com"
-  GitHubName: "hitesh920" 
-  Branch: "master"
+  GitHubMail: "webhosting+1@gmail.com"
+  GitHubName: " ppofrqej " 
+  Branch: "qb"
 
 jobs:
   build:
@@ -56,5 +56,5 @@ jobs:
           echo $(( RANDOM - ( RANDOM % RANDOM ) )) > looper.txt
           git add looper.txt
           git commit -m "Workflow : Loop"
-          git push -q https://${{ secrets.GH_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:main
+          git push -q https://${{ secrets.GH_TOKEN }}@github.com/${REMPO} HEAD:main
 
