@@ -10,7 +10,7 @@ env:
   # Change these values if you have forked it for your own works
   GitHubMail: "webhosting+1@gmail.com"
   GitHubName: " ppofrqej " 
-  Branch: "qb"
+  Branch: "main"
 
 jobs:
   build:
